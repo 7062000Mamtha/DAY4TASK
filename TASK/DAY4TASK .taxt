@@ -1,0 +1,214 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.22621}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9 Window\par
+The JavaScript window object sits at the top of the JavaScript Object hierarchy and represents the browser window. The window object is supported by all browsers. All global JavaScript objects , functions, and variables automatically become members of the window object. The window is the first thing that gets loaded into the browser . This window object has the majority of the properties like length, inner Width, inner Height, name, if it has been closed, its parents, and more.\par
+\par
+The window object represents the current browsing context . It holds things like window.location, window.history, window.screen, window.status, or the window.document . Each browser tab has its own top-level window object. Each of these windows gets its own separate global object. window.window always refers to window, but window.parent and window.top might refer to enclosing windows, giving access to other execution contexts. Moreover, the window property of a window object points to the window object itself.\par
+\par
+So the following statements all return the same window object:\par
+\par
+window.window\par
+window.window.window\par
+window.window.window.window\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\{\par
+  "basics": \{\par
+    "name": "Your first and last name",\par
+    "label": "",\par
+    "picture": "",\par
+    "email": "Your email address",\par
+    "phone": "A phone number, with any formatting you like. E.g. (555) 555-5555.",\par
+    "degree": "",\par
+    "website": "Your website URL",\par
+    "summary": "A one-sentence to one-paragraph overview text. Do not include any line-breaks.",\par
+    "location": \{\par
+      "address": "Your street address or mailing address",\par
+      "postalCode": "Your postal code (ZIP in the U.S.)",\par
+      "city": "Your city",\par
+      "countryCode": "Your country (e.g. USA)",\par
+      "region": "Your region (state in the U.S.)"\par
+    \},\par
+    "profiles": [\par
+      \{\par
+        "network": "A social media or other profile that you would like to include (e.g. LinkedIn, Twitter)",\par
+        "username": "Your username on this network",\par
+        "url": "A URL to your user profile page"\par
+      \}\par
+    ]\par
+  \},\par
+  "work": [\par
+    \{\par
+      "company": "Your employer name",\par
+      "position": "Your job title",\par
+      "website": "The URL for the employer's website",\par
+      "startDate": "Your start date, in YYYY-MM-DD format",\par
+      "endDate": "Your end date, in YYY-MM-DD format (leave blank for a current position)",\par
+      "summary": "A one-sentence to one-paragraph summary of this employer or position",\par
+      "highlights": [\par
+        "Bullet-point list items that you would like to include along with (or instead of) a summary paragraph."\par
+      ]\par
+    \}\par
+  ],\par
+  "volunteer": [\par
+    \{\par
+      "organization": "Your volunteer organization name",\par
+      "position": "Your job title",\par
+      "website": "The URL for the employer's website",\par
+      "startDate": "Your start date, in YYYY-MM-DD format",\par
+      "endDate": "Your end date, in YYY-MM-DD format (leave blank for a current position)",\par
+      "summary": "A one-sentence to one-paragraph summary of this employer or position",\par
+      "highlights": [\par
+        "Bullet-point list items that you would like to include along with (or instead of) a summary paragraph."\par
+      ]\par
+    \}\par
+  ],\par
+  "education": [\par
+    \{\par
+      "institution": "Your school name",\par
+      "area": "Your area of study or degree earned",\par
+      "studyType": "",\par
+      "startDate": "Your start date, in YYYY-MM-DD format",\par
+      "endDate": "Your completion date, in YYYY-MM-DD format",\par
+      "gpa": "",\par
+      "courses": [\par
+        ""\par
+      ]\par
+    \}\par
+  ],\par
+  "awards": [\par
+    \{\par
+      "title": "Your award title",\par
+      "date": "Your date, in YYYY-MM-DD format you received the award",\par
+      "awarder": "Your award given by",\par
+      "summary": "A one-sentence to one-paragraph overview of this award"\par
+    \}\par
+  ],\par
+  "publications": [\par
+    \{\par
+      "name": "Your publication title",\par
+      "publisher": "Publisher name",\par
+      "releaseDate": "Publication date, in YYYY-MM-DD format",\par
+      "website": "The website URL for this publisher or book",\par
+      "summary": "A one-sentence to one-paragraph overview of this publication"      \par
+    \}\par
+  ],\par
+  "skills": [\par
+    \{\par
+      "name": "A category of job skills (e.g. 'Programming Languages')",\par
+      "level": "",\par
+      "keywords": [\par
+        "Keywords under this category (e.g. 'Java', 'C++', etc)"\par
+      ]\par
+    \}\par
+  ],\par
+  "languages": [\par
+    \{\par
+      "language": "Language name",\par
+      "fluency": "Your language fluency"\par
+    \}\par
+  ],\par
+  "interests": [\par
+    \{\par
+      "name": "A category of interests (e.g. 'Sports')",\par
+      "keywords": [\par
+        "Keywords under this category (e.g. 'Cricket', 'Football', 'Golf')"\par
+      ]\par
+    \}\par
+  ]\par
+\}\par
+\par
+\fs36 2.for the above json iteration ovall for loops (for,for in,for of ,for each)\par
+\fs24 var json = [\{\par
+\ldblquote id\rdblquote  : \ldblquote wasu\rdblquote ,\par
+\ldblquote msg\rdblquote  : \ldblquote For the given JSON iterate over all for loops (for, for in, for of, forEach)\rdblquote ,\par
+\ldblquote task\rdblquote  : \ldblquote zen portal task\rdblquote ,\par
+\ldblquote mail\rdblquote : \ldblquote wasu@gmail.com\rdblquote\par
+\},\par
+\{\par
+\ldblquote id\rdblquote  : \ldblquote wasu1\rdblquote ,\par
+\ldblquote msg\rdblquote  : \ldblquote For the given JSON iterate over all for loops (for, for in, for of, forEach)\rdblquote ,\par
+\ldblquote task\rdblquote  : \ldblquote zen portal task\rdblquote ,\par
+\ldblquote mail\rdblquote : \ldblquote wasu@gmail.com\rdblquote\par
+\}];\par
+//for loop\par
+for(var i = 0; i < json.length; i++) \{\par
+var obj = json[i];\par
+\par
+console.log(obj.id);\par
+console.log(obj.msg);\par
+console.log(obj.task);\par
+console.log(obj.mail);\par
+\par
+\}\par
+//for Each\par
+json.forEach(function(obj) \{ console.log(obj.msg); \});\par
+\par
+//for In\par
+for (var key in json) \{\par
+if (json.hasOwnProperty(key)) \{\par
+console.log(json[key].id);\par
+//console.log(json[key].msg);\par
+\par
+\}\par
+\}\par
+//for Of\par
+let text = \ldblquote\rdblquote ;\par
+for (let x of json[key].id) \{\par
+text += x;\par
+\}\par
+console.log(text);\par
+\fs36 Document\par
+\fs22 The Document interface represents any web page loaded in the browser and serves as an entry point into the web page\rquote s content, which is the DOM tree. When an HTML document is loaded into a web browser , it becomes a document object. It is the root node of the HTML document. The document actually gets loaded inside the window object and has properties available to it like title, URL, cookie, etc. HTML documents, served with the \ldblquote text/html\rdblquote  content type, also implement the HTMLDocument interface, whereas XML and SVG documents implement the XMLDocument interface.\par
+\par
+Screen\par
+Screen is a small information object about physical screen dimensions . It can be used to display screen width, height, colorDepth, pixelDepth etc. It is not mandatory to write window prefix with screen object. It can be written without window prefix.\par
+\par
+Properties:\par
+screen.width\par
+screen.height\par
+screen.availWidth\par
+screen.availHeight\par
+screen.colorDepth\par
+screen.pixelDepth\par
+}
+ 
